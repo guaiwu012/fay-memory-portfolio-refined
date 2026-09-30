@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Touch to Talk project cover</title>
+  <desc id="desc">A cobalt and coral interaction graphic with overlapping touch points and conversation bubbles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12175a"/>
+      <stop offset="1" stop-color="#4f3bd8"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff745f"/>
+      <stop offset="1" stop-color="#ffb68d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g fill="none" stroke="#c9c5ff" stroke-width="2" opacity=".28">
+    <path d="M0 180h1200M0 360h1200M0 540h1200M0 720h1200"/>
+    <path d="M180 0v900M360 0v900M540 0v900M720 0v900M900 0v900M1080 0v900"/>
+  </g>
+  <circle cx="280" cy="450" r="184" fill="url(#coral)" opacity=".95"/>
+  <circle cx="920" cy="450" r="184" fill="#efeef7" opacity=".96"/>
+  <path d="M260 530c-46-23-77-68-77-120 0-75 61-136 136-136s136 61 136 136-61 136-136 136c-20 0-40-4-58-12l-55 32z" fill="#12175a"/>
+  <path d="M940 370c46 23 77 68 77 120 0 75-61 136-136 136s-136-61-136-136 61-136 136-136c20 0 40 4 58 12l55-32z" fill="#ff745f"/>
+  <g fill="#fff"><circle cx="270" cy="406" r="9"/><circle cx="320" cy="406" r="9"/><circle cx="370" cy="406" r="9"/></g>
+  <g fill="#12175a"><circle cx="870" cy="494" r="9"/><circle cx="920" cy="494" r="9"/><circle cx="970" cy="494" r="9"/></g>
+  <circle cx="600" cy="450" r="64" fill="#f7f5ff" stroke="#ff745f" stroke-width="6"/>
+  <path d="M600 422v56M572 450h56" stroke="#12175a" stroke-width="12" stroke-linecap="square"/>
+  <text x="56" y="82" fill="#fff" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="5">INTERACTION STUDY_02</text>
+  <text x="600" y="790" text-anchor="middle" fill="#fff" font-family="Arial Black, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-4">TOUCH TO TALK</text>
+  <text x="600" y="842" text-anchor="middle" fill="#d7d4ff" font-family="ui-monospace, monospace" font-size="19" letter-spacing="4">A SMALL GESTURE / A LARGER CONVERSATION</text>
+</svg>
