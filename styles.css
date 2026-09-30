@@ -342,3 +342,25 @@ html[lang="zh-CN"] .project-modal .modal-flow span,html[lang="zh-CN"] .modal-act
 .sound-control.music-on .waveform{animation:ambientWave 1.35s steps(8,end) infinite}
 .sound-control.music-on{background:rgba(23,56,255,.08);box-shadow:inset 0 0 0 1px rgba(23,56,255,.25)}
 @keyframes ambientWave{0%,100%{transform:scaleY(.7);opacity:.72}40%{transform:scaleY(1.08);opacity:1}70%{transform:scaleY(.88);opacity:.82}}
+
+/* === New portfolio work + social links === */
+.project-card[data-project="mogao"] .project-visual img{object-position:top center}
+.project-card[data-project="touch"] .project-visual img{object-fit:cover;object-position:center}
+.social-section{background:linear-gradient(130deg,#f4f3ed 0 54%,#ffb08e 54%);min-height:72vh}
+.social-layout{position:relative;z-index:1;max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr .86fr;gap:70px;align-items:center}
+.social-layout>div:first-child>p:last-child{max-width:500px;font:400 14px/1.7 ui-monospace,monospace;color:#263078}
+.social-links{display:grid;gap:14px}
+.social-link{display:grid;grid-template-columns:56px 1fr auto;align-items:center;gap:18px;min-height:96px;padding:18px 22px;border:3px solid var(--blue);background:#12175a;color:#fff;text-decoration:none;box-shadow:12px 12px 0 rgba(23,56,255,.2);font:800 13px ui-monospace,monospace;letter-spacing:.12em;transition:transform .25s ease,box-shadow .25s ease,background .25s ease}
+.social-link:hover{transform:translate(-5px,-5px);box-shadow:17px 17px 0 rgba(23,56,255,.28);background:#2430a4}
+.social-link:focus-visible{outline:4px solid #ff745f;outline-offset:5px}
+.social-link svg{display:block;width:46px;height:46px}
+.social-link b{font-size:22px;font-weight:400;letter-spacing:0}
+.social-link-xhs{color:#ff3f62}
+.social-link-xhs span,.social-link-xhs b{color:#fff}
+.social-link-github{background:#f3f2ed;color:#12175a}
+.social-link-github:hover{background:#fff}
+@media (max-width:720px){
+  .social-section{background:linear-gradient(155deg,#f4f3ed 0 42%,#ffb08e 42%)}
+  .social-layout{grid-template-columns:1fr;gap:38px}
+  .social-link{min-height:82px;padding:14px 16px}
+}
