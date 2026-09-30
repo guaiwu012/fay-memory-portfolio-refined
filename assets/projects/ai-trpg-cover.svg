@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b35"/><stop offset=".55" stop-color="#1c2182"/><stop offset="1" stop-color="#7654ff"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#e8e9ff" stroke-opacity=".09"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/><rect width="1600" height="1000" fill="url(#grid)"/>
+  <path d="M80 130H1520M80 870H1520" stroke="#f5f5f2" stroke-opacity=".45" stroke-width="3"/>
+  <text x="88" y="92" fill="#f5f5f2" font-family="monospace" font-size="27">FAY_014 / AI GAME EXPERIMENT</text>
+  <text x="1510" y="92" text-anchor="end" fill="#b9abff" font-family="monospace" font-size="27">CASE_001</text>
+  <text x="110" y="350" fill="#fff" font-family="Arial Black,Arial" font-size="180" letter-spacing="-12">AI</text>
+  <text x="110" y="535" fill="#b9a5ff" font-family="Arial Black,Arial" font-size="180" letter-spacing="-12">TRPG</text>
+  <text x="120" y="610" fill="#fff" font-family="monospace" font-size="30">SUSPENSE · RISK · EXTRACTION · MEMORY</text>
+  <g transform="translate(980 480)" fill="none" stroke="#fff" stroke-width="7" filter="url(#glow)">
+    <circle r="170"/><circle r="112" stroke-opacity=".55"/><path d="M-240 0H240M0-240V240" stroke-opacity=".55"/>
+    <path d="M-100 105L0-100L105 105Z"/><circle r="24" fill="#fff"/>
+  </g>
+  <rect x="110" y="715" width="515" height="94" fill="#f5f5f2"/><text x="145" y="775" fill="#10175d" font-family="monospace" font-weight="700" font-size="34">START NEW INVESTIGATION →</text>
+  <text x="1495" y="920" text-anchor="end" fill="#f5f5f2" font-family="monospace" font-size="25">AI-GENERATED SESSION REPORT / END</text>
+</svg>
