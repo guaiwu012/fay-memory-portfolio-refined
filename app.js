@@ -251,7 +251,7 @@
     sound:{idx:'PROJECT_04',size:'wide',card:local({title:'Shape of Sound',tag:'HCI RESEARCH',summary:'Preserving emotion in speech-to-text through emoji, visual feedback and evaluated prototypes.',open:'VIEW 10 PAGES ↗'},{title:'声音的形状',tag:'人机交互研究',summary:'通过表情符号和视觉反馈，在语音转文字中保留情绪。',open:'查看 10 页 ↗'}),detail:local({summary:'An HCI project testing how voice emotion can survive speech-to-text through emoji and visual cues, with formative research, prototypes and comparative evaluation.',meta:['HCI research','Speech-to-text','Emotion'],flow:['Study voice-message friction','Compare expression methods','Build the processing pipeline','Evaluate accuracy and emotion'],links:[['VIEW FULL PDF','./assets/docs/shapeofsound.pdf','primary'],['VIEW REPOSITORY','https://github.com/guaiwu012/CS160-HCI','secondary']]},{summary:'一项研究语音情绪如何在语音转文字中被保留的人机交互项目，包含形成性研究、表达方式比较、原型和对照评估。',meta:['人机交互研究','语音转文字','情绪计算'],flow:['研究语音消息使用阻力','比较不同情绪表达方式','搭建处理流程','评估准确率与情绪增强效果'],links:[['查看完整 PDF','./assets/docs/shapeofsound.pdf','primary'],['查看代码仓库','https://github.com/guaiwu012/CS160-HCI','secondary']]}),images:pageList('shapeofsound',10)},
     blockbot:{idx:'PROJECT_05',size:'wide',card:local({title:'Block Bot',tag:'PHYSICAL COMPUTING',summary:'A screen-free programming toy that lets children command a trolley with colored blocks.',open:'VIEW 9 PAGES ↗'},{title:'Block Bot',tag:'物理计算',summary:'儿童通过排列彩色指令块，控制小车移动的无屏编程玩具。',open:'查看 9 页 ↗'}),detail:local({summary:'A screen-free physical programming toy for children aged 3–6. Colored direction blocks are scanned by a trolley and converted into movement instructions.',meta:['Physical computing','Arduino','Education'],flow:['Arrange direction blocks','Scan their colors','Store the commands','Run the trolley path'],links:[['VIEW FULL PDF','./assets/docs/blockbot.pdf','primary'],['VIEW CODE / VIDEO','https://github.com/guaiwu012/BLOCK-BOT','secondary']]},{summary:'面向 3–6 岁儿童的无屏物理编程玩具。小车扫描彩色方向块，并把颜色转换为对应的移动指令。',meta:['物理计算','Arduino','教育科技'],flow:['排列方向积木','扫描颜色','存储指令','执行小车路径'],links:[['查看完整 PDF','./assets/docs/blockbot.pdf','primary'],['查看代码与视频','https://github.com/guaiwu012/BLOCK-BOT','secondary']]}),images:pageList('blockbot',9)},
     mogao:{idx:'PROJECT_06',size:'portrait',card:local({title:'Mogao Traces',tag:'AI CULTURAL TOURISM',summary:'An AI-driven cultural tourism system for reading, navigating and caring for the Mogao Caves.',open:'VIEW PROJECT BOARD ↗'},{title:'莫高寻迹',tag:'AI 文旅交互',summary:'以 AI 驱动的莫高窟文旅交互系统，连接洞窟导览、环境感知与文化叙事。',open:'查看项目展板 ↗'}),detail:local({summary:'An AI-driven interaction system for the Mogao Caves, connecting visitor routes, environmental sensing, cave health information and cultural storytelling.',meta:['Cultural tourism','AI interaction','Information visualization'],flow:['Read the site','Sense environmental pressure','Shape a visitor route','Reveal cultural stories'],links:[['VIEW PROJECT BOARD','./assets/projects/mogao/page-01.png','primary']]},{summary:'面向莫高窟的 AI 文旅交互系统，将游客路径、环境感知、洞窟健康信息与文化叙事连接起来。',meta:['文旅交互','AI 系统','信息可视化'],flow:['理解场地与问题','感知环境压力','规划游客路径','展开文化叙事'],links:[['查看项目展板','./assets/projects/mogao/page-01.png','primary']]}),images:['./assets/projects/mogao/page-01.png']},
-    touch:{idx:'PROJECT_07',size:'wide',card:local({title:'Touch to Talk',tag:'COMMUNICATION DESIGN',summary:'A communication project documented through interaction studies, interface explorations and project materials.',open:'OPEN DRIVE FOLDER ↗'},{title:'Touch to Talk',tag:'沟通交互设计',summary:'围绕 Touch to Talk 展开的交互研究、界面探索与项目材料。',open:'打开 Drive 文件夹 ↗'}),detail:local({summary:'A communication design project documented through interaction studies, interface explorations and project materials.',meta:['Communication design','Interaction study','Interface exploration'],flow:['Frame a conversation','Explore touch as a cue','Prototype the exchange','Document the interaction'],links:[['OPEN DRIVE FOLDER','https://drive.google.com/drive/folders/1FUkBSuQJNBKtSAj_jYvgCk1iM8ojqWMj','primary']]},{summary:'围绕沟通展开的交互设计项目，记录了交互研究、触碰作为线索的探索、界面原型与项目过程。',meta:['沟通设计','交互研究','界面探索'],flow:['定义沟通场景','探索触碰线索','制作交互原型','记录设计过程'],links:[['打开 Drive 文件夹','https://drive.google.com/drive/folders/1FUkBSuQJNBKtSAj_jYvgCk1iM8ojqWMj','primary']]}),images:['./assets/projects/touch-to-talk-cover.svg']}
+    touch:{idx:'PROJECT_07',size:'wide',video:'./assets/projects/touch-to-talk.mp4',poster:'./assets/projects/touch-to-talk-cover.svg',card:local({title:'Touch to Talk',tag:'COMMUNICATION DESIGN',summary:'An AR-driven sign language learning game about turning touch into a shared conversation.',open:'PLAY PROJECT VIDEO ↗'},{title:'Touch to Talk',tag:'AR 手语学习游戏',summary:'一款由 AR 驱动的手语学习游戏，把触碰变成共享的沟通体验。',open:'播放项目视频 ↗'}),detail:local({summary:'An AR-driven sign language learning game that uses touch, gesture and playful interaction to make communication practice feel shared.',meta:['AR interaction','Sign language learning','Game design'],flow:['Frame a conversation','Learn through gesture','Practice the exchange','Turn touch into talk'],links:[['OPEN DRIVE FOLDER','https://drive.google.com/drive/folders/1FUkBSuQJNBKtSAj_jYvgCk1iM8ojqWMj','secondary']]},{summary:'一款由 AR 驱动的手语学习游戏，通过触碰、手势和游戏化互动，让沟通练习变成共享体验。',meta:['AR 交互','手语学习','游戏设计'],flow:['进入沟通场景','通过手势学习','练习互动表达','让触碰成为对话'],links:[['打开 Drive 文件夹','https://drive.google.com/drive/folders/1FUkBSuQJNBKtSAj_jYvgCk1iM8ojqWMj','secondary']]}),images:['./assets/projects/touch-to-talk-cover.svg']}
   };
 
   const showToast = (en, zh = en) => {
@@ -633,9 +633,17 @@
     showToast(`FILTER: ${copy.en[`portfolio.filter.${btn.dataset.filter}`]}`,`筛选：${copy.zh[`portfolio.filter.${btn.dataset.filter}`]}`);
   }));
 
-  const projectModal=$('#project-modal'); const modalImage=$('#modal-image'); const thumbs=$('#gallery-thumbs');
+  const projectModal=$('#project-modal'); const modalImage=$('#modal-image'); const modalVideo=$('#modal-video'); const thumbs=$('#gallery-thumbs');
   let activeProject=null,activeImage=0;
   const renderGallery=()=>{
+    const videoSrc=activeProject?.video;
+    if(videoSrc){
+      modalImage.hidden=true; modalVideo.hidden=false; modalVideo.src=videoSrc; modalVideo.poster=activeProject.poster||''; modalVideo.load();
+      $('#gallery-prev').hidden=true; $('#gallery-next').hidden=true; $('#gallery-counter').hidden=true; thumbs.hidden=true; $('.modal-hint').hidden=true;
+      $('#modal-gallery').classList.add('single-image','video-mode');
+      return;
+    }
+    modalVideo.pause(); modalVideo.hidden=true; modalVideo.removeAttribute('src'); modalVideo.removeAttribute('poster'); modalImage.hidden=false;
     const images=activeProject?.images||[];
     const multi=images.length>1;
     modalImage.src=images[activeImage];
@@ -644,7 +652,7 @@
     $$('.gallery-thumb').forEach((b,i)=>b.classList.toggle('active',i===activeImage));
     $('#gallery-prev').hidden=!multi; $('#gallery-next').hidden=!multi; $('#gallery-counter').hidden=!multi;
     thumbs.hidden=!multi; $('.modal-hint').hidden=!multi;
-    $('#modal-gallery').classList.toggle('single-image',!multi);
+    $('#modal-gallery').classList.toggle('single-image',!multi); $('#modal-gallery').classList.remove('video-mode');
     modalImage.animate([{opacity:.2,transform:'translateY(12px) scale(.985)'},{opacity:1,transform:'none'}],{duration:260,easing:'ease-out'});
   };
   const moveGallery=step=>{if(!activeProject||activeProject.images.length<2)return;activeImage=(activeImage+step+activeProject.images.length)%activeProject.images.length;renderGallery();tone(420+activeImage*8,.04,'triangle')};
@@ -665,7 +673,7 @@
   $('#pixel-pals-card').addEventListener('click',()=>openProject('pixel'));
   $('#gallery-prev').addEventListener('click',()=>moveGallery(-1));$('#gallery-next').addEventListener('click',()=>moveGallery(1));
   $('#gallery-stage').addEventListener('wheel',e=>{if(!activeProject||activeProject.images.length<2||Math.abs(e.deltaY)<8)return;e.preventDefault();moveGallery(e.deltaY>0?1:-1)},{passive:false});
-  $('#modal-close').addEventListener('click',()=>projectModal.close());projectModal.addEventListener('click',e=>{if(e.target===projectModal)projectModal.close()});
+  $('#modal-close').addEventListener('click',()=>projectModal.close());projectModal.addEventListener('click',e=>{if(e.target===projectModal)projectModal.close()});projectModal.addEventListener('close',()=>modalVideo.pause());
   document.addEventListener('keydown',e=>{if(projectModal.open){if(e.key==='ArrowLeft')moveGallery(-1);if(e.key==='ArrowRight')moveGallery(1);if(e.key==='Escape')projectModal.close()}else if(profileModal.open&&e.key==='Escape')profileModal.close()});
 
   $('#copy-email').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('#email-field').value);showToast('EMAIL COPIED','邮箱已复制')}catch{showToast('COPY FAILED — SELECT IT MANUALLY','复制失败，请手动选择邮箱')}});
