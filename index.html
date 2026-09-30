@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#f5f5f2" name="theme-color"/>
+<title>Fay — AI Product × Games</title>
+<meta content="Fay's interactive portfolio — AI product, game systems and interaction design." name="description"/>
+<link href="./styles.css" rel="stylesheet"/>
+</head>
+<body class="focus-mode" data-focus="interest">
+<div aria-hidden="true" class="boot-screen" id="boot-screen">
+<div class="boot-mark">fay_014</div>
+<div class="boot-line"><span></span></div>
+<p data-i18n="boot.loading">LOADING MEMORIES...</p>
+</div>
+<div aria-hidden="true" class="noise"></div>
+<div aria-hidden="true" class="cursor-orbit" id="cursor-orbit"><i></i><b></b></div>
+<header class="top-shell" id="top-shell">
+<div class="status-rail">
+<a aria-label="Fay home" class="brand" href="#home">
+<span aria-hidden="true" class="pixel-cat">▟◉ᴥ◉▙</span>
+<strong>fay</strong>
+</a>
+<span class="rail-divider"></span>
+<div class="sys-readout"><b>USER:</b> FAY_014</div>
+<div class="sys-readout"><b>MODE:</b> <button class="text-button" id="mode-cycle">PLAY</button></div>
+<div class="sys-readout level-readout"><b>LV.</b>23 <span><i></i></span></div>
+<div class="rail-note" data-i18n="rail.note">( PLEASE* )<br/><small>handle with wonder<br/>build with play</small></div>
+<div class="promise" data-i18n="rail.promise">(PROMISE <span>∞</span> YOU)</div>
+</div>
+<nav aria-label="Primary navigation" class="main-nav">
+<a class="active" data-i18n="nav.home" href="#home">HOME</a>
+<a data-i18n="nav.story" href="#story">STORY</a>
+<a data-i18n="nav.portfolio" href="#portfolio">PORTFOLIO</a>
+<a data-i18n="nav.contact" href="#contact">CONTACT</a>
+<button aria-label="Toggle interface sound and ambient synth" title="Interface sound + ambient synth" aria-pressed="false" class="sound-control" id="sound-control">
+<span class="speaker">◖</span>
+<span class="waveform" id="waveform"></span>
+</button><button aria-label="Switch language" aria-pressed="false" class="language-control" id="language-toggle">中文</button>
+</nav>
+</header>
+<main>
+<section class="hero" data-section="home" id="home">
+<div aria-hidden="true" class="hero-grid"></div>
+<div aria-hidden="true" class="paper-tear tear-a"></div>
+<div aria-hidden="true" class="paper-tear tear-b"></div>
+<div aria-hidden="true" class="halftone h-left"></div>
+<div aria-hidden="true" class="halftone h-right"></div>
+<div class="vertical-label left-label" data-i18n="hero.scroll">SCROLL TO EXPLORE</div>
+<div class="vertical-label right-label" data-i18n="hero.axis">AI · GAMES · DESIGN</div>
+<div class="hero-copy reveal-on-load">
+<div class="micro-list"><span data-i18n="hero.signal1"></span><span data-i18n="hero.signal2"></span><span data-i18n="hero.signal3"></span></div>
+<div aria-label="Choose a focus category" class="focus-selector"><div class="focus-intro" data-i18n="focus.instruction"></div><div class="focus-buttons" role="tablist"><button aria-selected="true" class="active" data-focus="interest" data-i18n="focus.interest" role="tab">INTEREST</button><button aria-selected="false" class="" data-focus="education" data-i18n="focus.education" role="tab">EDUCATION</button></div><div class="focus-progress"><i></i></div></div><h1>
+<span data-i18n="hero.title1">SYSTEMS</span>
+<span data-i18n="hero.title2">BECOME</span>
+<span class="accent-word" data-i18n="hero.title3">STORIES</span>
+<span data-i18n="hero.title4">IN PLAY<span class="blink-dot">.</span></span>
+</h1>
+<p data-i18n="hero.subtitle">Bridging AI, interaction and playful narratives to craft meaningful experiences.</p>
+<div class="hero-actions">
+<a class="button primary" data-i18n="hero.cta.story" href="#story">ENTER STORY <span>→</span></a>
+<a class="button secondary" data-i18n="hero.cta.portfolio" href="#portfolio">SEE PORTFOLIO</a>
+<a class="button secondary" data-i18n="hero.cta.contact" href="#contact">GET IN TOUCH</a>
+</div>
+</div>
+<div aria-label="Interactive portfolio objects" class="collage" id="collage">
+<article aria-label="Interactive game controller" class="controller object-card tilt" data-focus-group="interest" data-object="controller" data-profile="game" tabindex="0">
+<div class="controller-body">
+<div class="stick s1"></div><div class="stick s2"></div>
+<div class="dpad"><i></i><b></b></div>
+<div class="pad-buttons">
+<button aria-label="Play mode" data-action="play">A</button>
+<button aria-label="Build mode" data-action="build">B</button>
+<button aria-label="Impact mode" data-action="impact">Y</button>
+<button aria-label="Reset effects" data-action="reset">X</button>
+</div>
+</div>
+<div class="object-status" data-i18n="object.pressButton" id="controller-status">PRESS A BUTTON</div>
+</article>
+<article aria-label="AI and games notebook" class="notebook object-card tilt" data-focus-group="interest" data-object="notebook" data-profile="ai-making" tabindex="0">
+<div aria-hidden="true" class="spiral"></div>
+<div aria-label="Notebook topics" class="notebook-tabs" role="tablist">
+<button class="active" data-page="ai" role="tab">AI × GAMES</button>
+<button data-page="ads" role="tab">PLAYABLE ADS</button>
+<button data-page="ux" role="tab">INTERACTION</button>
+</div>
+<div class="notebook-page" id="notebook-page"><h2>AI × GAMES</h2><p class="object-teaser" data-i18n="object.notebook">Systems, play, memory.</p><button class="detail-trigger" data-i18n="common.openDetails" data-profile="ai-making">OPEN DETAILS ↗</button></div>
+<button aria-label="Turn notebook page" class="corner-fold" id="next-note">↻</button>
+</article>
+<article aria-label="Draggable interaction design note" class="sticky sticky-main draggable" data-focus-group="interest" data-object="sticky" data-profile="design" tabindex="0">
+<div class="tape"></div>
+<h3 data-i18n="object.designTitle">Interaction Design</h3>
+<p data-i18n="object.designTeaser">Observe → Prototype → Test</p>
+<span class="pixel-doodle">ฅ^•ﻌ•^ฅ</span>
+</article>
+<article aria-label="Draggable ideas note" class="sticky sticky-ideas draggable" data-focus-group="interest" data-object="ideas" data-profile="design" tabindex="0">
+<h3 data-i18n="object.interestsTitle">IDEAS</h3>
+<p data-i18n="object.interestsTeaser">Games · systems · culture</p>
+</article>
+<button aria-label="Open Pixel Pals project" class="polaroid object-card tilt" data-focus-group="interest" data-profile="design" id="pixel-pals-card">
+<div class="polaroid-image">
+<span class="pixel-character">▦</span>
+<span class="gallery-lights"></span>
+</div>
+<strong>ars electronica</strong>
+<span>2025 ♥</span>
+</button>
+<article aria-label="Interactive Shape of Sound visualization" class="tablet object-card tilt" data-focus-group="interest" data-object="tablet" data-profile="design" tabindex="0">
+<div class="tablet-screen">
+<div class="sound-title">Shape of Sound</div>
+<svg aria-label="Emotion sound map" id="sound-map" role="img" viewbox="0 0 310 150">
+<path class="sound-path" d="M10 92 C46 28, 76 116, 112 64 S180 28, 208 83 S260 115, 300 42"></path>
+<g class="sound-nodes">
+<circle cx="10" cy="92" data-tone="calm" r="5"></circle>
+<circle cx="76" cy="85" data-tone="curious" r="5"></circle>
+<circle cx="142" cy="48" data-tone="joy" r="5"></circle>
+<circle cx="208" cy="83" data-tone="tension" r="5"></circle>
+<circle cx="300" cy="42" data-tone="wonder" r="5"></circle>
+</g>
+</svg>
+<div class="tone-readout" id="tone-readout">Move across the nodes →</div>
+</div>
+<div class="tablet-caption" data-i18n="object.soundCaption">Translating emotions into visual language.</div>
+</article>
+<button aria-label="Toggle focus mode" aria-pressed="true" class="headphones object-card" data-focus-group="always" id="headphones">
+<span class="headband"></span><i class="ear left"></i><i class="ear right"></i>
+<span class="headphone-label" data-i18n="object.focusMode">FOCUS MODE</span>
+</button>
+<button aria-label="Cycle inspiration track" class="cassette object-card tilt" data-focus-group="interest" data-profile="game" id="cassette">
+<span class="cassette-label">PX:27</span>
+<i></i><i></i>
+<small id="cassette-track">TRACK 01 / CURIOSITY</small>
+</button>
+<article aria-label="Draggable memory ticket" class="memory-ticket draggable" data-focus-group="always" tabindex="0">
+<span>FAY_014</span><b>KEEP CREATING...</b><i></i>
+</article>
+<button aria-label="SHANGHAITECH" class="profile-slip slip-shanghaitech" data-focus-group="education" data-profile="shanghaitech"><small data-i18n="slip.shanghaitech.eyebrow">01 / EDUCATION</small><strong data-i18n="slip.shanghaitech.title">SHANGHAITECH</strong><span data-i18n="slip.shanghaitech.sub">B.Eng. Computer Science</span></button><button aria-label="HKBU" class="profile-slip slip-hkbu" data-focus-group="education" data-profile="hkbu"><small data-i18n="slip.hkbu.eyebrow">02 / EDUCATION</small><strong data-i18n="slip.hkbu.title">HKBU</strong><span data-i18n="slip.hkbu.sub">M.Sc. AI &amp; Digital Media</span></button></div>
+<div class="project-signature">
+<span class="mini-cat">▟◉ᴥ◉▙</span>
+<div><strong>PIXEL PALS</strong><small data-i18n="hero.pixelPalsSig">Turning worries into remedies.<br/>Ars Electronica 2025</small></div>
+</div>
+<div class="loading-rail"><span data-i18n="boot.loading">LOADING MEMORIES...</span><i><b></b></i></div>
+<div class="build-stamp" data-i18n="hero.buildStamp">◉ 2025 · BUILD · PLAY · SHARE</div>
+</section>
+<section class="story-section section-shell" data-section="story" id="story">
+<div class="section-index" data-i18n="story.index">01 / STORY</div>
+<header class="section-head">
+<p data-i18n="story.kicker">FROM SYSTEMS TO FEELING</p>
+<h2 data-i18n-html="story.title">I build structures people can <em>feel.</em></h2>
+</header>
+<div class="story-track">
+
+
+
+<button class="story-node active" data-story="now"><span data-i18n="story.node.now.time">NOW</span><b data-i18n="story.node.now.title">AI Product × Games</b><small data-i18n="story.node.now.sub">Tencent · Cloud gaming &amp; mini-game systems</small></button><button class="story-node" data-story="before"><span data-i18n="story.node.before.time">BEFORE</span><b data-i18n="story.node.before.title">AI Interaction Strategy</b><small data-i18n="story.node.before.sub">Xiaomi · Rules, intent and response systems</small></button><button class="story-node" data-story="yanyin"><span data-i18n="story.node.yanyin.time">EARLIER</span><b data-i18n="story.node.yanyin.title">Research Product 0→1</b><small data-i18n="story.node.yanyin.sub">Yanin Tech · ELN &amp; protocol tools</small></button><button class="story-node" data-story="origin"><span data-i18n="story.node.origin.time">ORIGIN</span><b data-i18n="story.node.origin.title">Computer Science × HCI</b><small data-i18n="story.node.origin.sub">Systems thinking with a human lens</small></button></div>
+<div class="story-display" id="story-display"><button aria-label="Open Tencent experience details" class="story-visual-card story-art-tencent" data-profile="tencent"><img alt="Blue-purple digital penguin illustration" src="./assets/tencent-penguin.png"/><span data-i18n="story.openDetails">OPEN FULL EXPERIENCE ↗</span></button><div class="story-copy"><div class="story-number">01</div><h3></h3><p></p></div></div>
+</section>
+<section class="portfolio-section section-shell" data-section="portfolio" id="portfolio">
+<div class="section-index" data-i18n="portfolio.index">02 / SELECTED WORK</div>
+<header class="section-head portfolio-head">
+<div>
+<p data-i18n="portfolio.kicker">CLICK, FILTER, OPEN — REAL PROJECT MATERIALS INSIDE</p>
+<h2 data-i18n-html="portfolio.title">Selected <em>systems</em> &amp; experiments.</h2>
+</div>
+<div aria-label="Project filters" class="filters" role="tablist">
+<button class="active" data-filter="all" data-i18n="portfolio.filter.all">ALL</button>
+<button data-filter="product" data-i18n="portfolio.filter.product">PRODUCT</button>
+<button data-filter="game" data-i18n="portfolio.filter.game">GAME</button>
+<button data-filter="research" data-i18n="portfolio.filter.research">RESEARCH</button>
+</div>
+</header>
+<div class="project-grid" id="project-grid">
+<button class="project-card project-card-image" data-category="game research" data-project="trpg">
+<span class="project-no">01</span><span class="project-tag" data-project-field="tag">LIVE AI GAME</span>
+<h3 data-project-field="title">AI TRPG</h3><p data-project-field="summary">A suspense text RPG with AI narration, escalating risk and an end-of-session report.</p>
+<div class="project-visual"><img alt="AI TRPG interface artwork" loading="lazy" src="./assets/projects/ai-trpg-cover.svg"/></div><span class="open-mark" data-project-field="open">PLAY / OPEN ↗</span>
+</button>
+<button class="project-card project-card-image" data-category="research product" data-project="pixel">
+<span class="project-no">02</span><span class="project-tag" data-project-field="tag">INTERACTIVE INSTALLATION</span>
+<h3 data-project-field="title">Pixel Pals</h3><p data-project-field="summary">An algorithmic, cross-cultural archive that turns personal worries into acts of comfort.</p>
+<div class="project-visual"><img alt="Pixel Pals project board" loading="lazy" src="./assets/projects/pixelpals/page-01.webp"/></div><span class="open-mark" data-project-field="open">VIEW WORK ↗</span>
+</button>
+<button class="project-card project-card-image" data-category="product research" data-project="flowering">
+<span class="project-no">03</span><span class="project-tag" data-project-field="tag">SERVICE DESIGN</span>
+<h3 data-project-field="title">Flowering</h3><p data-project-field="summary">A prognosis-stage medical service concept connecting patient data, emotional support and follow-up care.</p>
+<div class="project-visual"><img alt="Flowering service design cover" loading="lazy" src="./assets/projects/flowering/page-01.webp"/></div><span class="open-mark" data-project-field="open">VIEW 11 PAGES ↗</span>
+</button>
+<button class="project-card project-card-image" data-category="research product" data-project="sound">
+<span class="project-no">04</span><span class="project-tag" data-project-field="tag">HCI RESEARCH</span>
+<h3 data-project-field="title">Shape of Sound</h3><p data-project-field="summary">Preserving emotion in speech-to-text through emoji, visual feedback and evaluated prototypes.</p>
+<div class="project-visual"><img alt="Shape of Sound project cover" loading="lazy" src="./assets/projects/shapeofsound/page-01.webp"/></div><span class="open-mark" data-project-field="open">VIEW 10 PAGES ↗</span>
+</button>
+<button class="project-card project-card-image" data-category="game research product" data-project="blockbot">
+<span class="project-no">05</span><span class="project-tag" data-project-field="tag">PHYSICAL COMPUTING</span>
+<h3 data-project-field="title">Block Bot</h3><p data-project-field="summary">A screen-free programming toy that lets children command a trolley by arranging colored blocks.</p>
+<div class="project-visual"><img alt="Block Bot project cover" loading="lazy" src="./assets/projects/blockbot/page-01.webp"/></div><span class="open-mark" data-project-field="open">VIEW 9 PAGES ↗</span>
+</button>
+</div>
+</section>
+<section class="contact-section section-shell" data-section="contact" id="contact">
+<div class="section-index" data-i18n="contact.index">03 / CONTACT</div>
+<div class="contact-layout">
+<div>
+<p class="contact-kicker" data-i18n="contact.kicker">OPEN CHANNEL_</p>
+<h2 data-i18n-html="contact.title">Let’s make complex things feel <em>alive.</em></h2>
+<p data-i18n="contact.subtitle">AI products, game systems, interactive narratives or strange prototypes—send a signal.</p>
+</div>
+<div class="contact-console">
+<div class="console-top"><span>NEW_MESSAGE.exe</span><span>● ONLINE</span></div>
+<label><span data-i18n="contact.to">TO</span><input id="email-field" readonly="" value="1779839259@qq.com"/></label>
+<label><span data-i18n="contact.subject">SUBJECT</span><input data-i18n-placeholder="contact.subjectPlaceholder" placeholder="What are we building?"/></label>
+<label><span data-i18n="contact.message">MESSAGE</span><textarea data-i18n-placeholder="contact.messagePlaceholder" placeholder="Tell me the strange, useful or playful thing you have in mind."></textarea></label>
+<div class="console-actions">
+<button data-i18n="contact.copy" id="copy-email">COPY EMAIL</button>
+<a data-i18n="contact.send" href="mailto:1779839259@qq.com">SEND SIGNAL →</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<dialog class="profile-modal" id="profile-modal">
+<button aria-label="Close details" class="modal-close" id="profile-modal-close">×</button>
+<div class="profile-modal-shell">
+<div class="profile-modal-visual">
+<div class="profile-code" id="profile-code">EXPERIENCE_01</div>
+<img alt="" class="profile-visual-image" id="profile-visual-image"/><div aria-hidden="true" class="profile-orbit-art"><i></i><b></b><span>✦</span></div>
+<div class="profile-tags" id="profile-tags"></div>
+</div>
+<div class="profile-modal-copy">
+<p class="profile-kicker" id="profile-kicker">EXPERIENCE</p>
+<h2 id="profile-title">Tencent</h2>
+<p class="profile-role" id="profile-role"></p>
+<p class="profile-summary" id="profile-summary"></p>
+<div class="profile-facts" id="profile-facts"></div><h3 class="profile-section-title" id="profile-points-title">SELECTED RESPONSIBILITIES</h3><div class="profile-points" id="profile-points"></div><div class="profile-metrics" id="profile-metrics"></div>
+<div class="profile-actions" id="profile-actions"></div>
+</div>
+</div>
+</dialog><dialog class="project-modal" id="project-modal">
+<button aria-label="Close project" class="modal-close" id="modal-close">×</button>
+<div class="project-modal-grid">
+<section aria-label="Project gallery" class="modal-gallery" id="modal-gallery">
+<div class="gallery-stage" id="gallery-stage">
+<img alt="Project page preview" id="modal-image"/>
+<button aria-label="Previous page" class="gallery-nav gallery-prev" id="gallery-prev">←</button>
+<button aria-label="Next page" class="gallery-nav gallery-next" id="gallery-next">→</button>
+<div class="gallery-counter" id="gallery-counter">01 / 01</div>
+</div>
+<div class="gallery-thumbs" id="gallery-thumbs"></div>
+</section>
+<section class="modal-copy">
+<div class="modal-index" id="modal-index">PROJECT_01</div>
+<h2 id="modal-title">Project title</h2>
+<p id="modal-summary"></p>
+<div class="modal-meta" id="modal-meta"></div>
+<div class="modal-flow" id="modal-flow"></div>
+<div class="modal-actions" id="modal-actions"></div>
+<p class="modal-hint" data-i18n="portfolio.modalHint">Use the arrows, thumbnails, mouse wheel or keyboard ← → to browse the original project pages.</p>
+</section>
+</div>
+</dialog>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="./app.js"></script>
+</body>
+</html>
